@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="end"
+                android:src="@mipmap/user"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:src="@mipmap/goog"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@mipmap/barra"/>
+
+            //LA PRIMERA DE GEORGE
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@mipmap/george"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="George Clooney le gustan los cafes \n y es un poco trucha"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccc"
+                    android:textSize="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CNN la madre que le pario"
+                        android:textSize="10dp"
+                        android:layout_weight="5" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            //LA SEGUNDA DE GEORGE
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@mipmap/george"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="George Clooney le gustan los cafes \n y es un poco trucha"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccc"
+                    android:textSize="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CNN la madre que le pario"
+                        android:textSize="10dp"
+                        android:layout_weight="5" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            //LA TERCERA DE GEORGE
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@mipmap/george"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="George Clooney le gustan los cafes \n y es un poco trucha"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccc"
+                    android:textSize="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CNN la madre que le pario"
+                        android:textSize="10dp"
+                        android:layout_weight="5" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/user"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@mipmap/user"
+            app:tint="#27A3C9">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@mipmap/user"
+            app:tint="#959595">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@mipmap/user"
+            app:tint="#959595">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@mipmap/user"
+            app:tint="#959595">
+        </ImageView>
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@mipmap/user"
+            app:tint="#959595">
+        </ImageView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
